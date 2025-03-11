@@ -1,15 +1,8 @@
 # Changelog
 
-## [0.1.1](https://github.com/zixlin7/language-servers/compare/lsp-yaml/v0.1.0...lsp-yaml/v0.1.1) (2025-03-11)
+## [0.1.1](https://github.com/zixlin7/language-servers/compare/lsp-antlr4/v0.1.0...lsp-antlr4/v0.1.1) (2025-03-11)
 
 
 ### Features
 
 * **chat-client:** handle 'openTab' requests ([#817](https://github.com/zixlin7/language-servers/issues/817)) ([fdd0b87](https://github.com/zixlin7/language-servers/commit/fdd0b87ad2d2c9a540d2594bb9243cad01b5887a))
-
-[0.0.1] - 2024-06-07
-
-- Intial release of the YAML LSP Server
-[0.1.0] - 2024-08-27
-
-- Changes to include custom YAML LSP Service

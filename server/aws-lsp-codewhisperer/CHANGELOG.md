@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.0.28](https://github.com/zixlin7/language-servers/compare/lsp-codewhisperer/v0.0.27...lsp-codewhisperer/v0.0.28) (2025-03-11)
+
+
+### Features
+
+* **amazonq:** stop emitting userDecision telemetry event ([dc51d24](https://github.com/zixlin7/language-servers/commit/dc51d2472390f14490ec175ce94e841f5ee24417))
+* bugfix for artifacts upload ([#749](https://github.com/zixlin7/language-servers/issues/749)) ([71c0a19](https://github.com/zixlin7/language-servers/commit/71c0a19974428037160152cc7e40cd6c399ceec9))
+* **chat-client:** handle 'openTab' requests ([#817](https://github.com/zixlin7/language-servers/issues/817)) ([fdd0b87](https://github.com/zixlin7/language-servers/commit/fdd0b87ad2d2c9a540d2594bb9243cad01b5887a))
+* Setting a flag with environment variable to retain generated input artifacts ([#807](https://github.com/zixlin7/language-servers/issues/807)) ([fc9a5b5](https://github.com/zixlin7/language-servers/commit/fc9a5b5fe4e4ae8babbff0bbed28263ae99c1385))
+
+
+### Bug Fixes
+
+* convert makeProxyConfig to sync to allow proxy configs to be loa… ([#725](https://github.com/zixlin7/language-servers/issues/725)) ([7ea8150](https://github.com/zixlin7/language-servers/commit/7ea81505c4c69a0a3ba3b595a51fd40b9db14947))
+* fixing model change for skipped step ([#670](https://github.com/zixlin7/language-servers/issues/670)) ([630e6fd](https://github.com/zixlin7/language-servers/commit/630e6fde0b70bb1148e6acdc67c96d40319b6ce7))
+* make proxy nodejs only ([#716](https://github.com/zixlin7/language-servers/issues/716)) ([37cf726](https://github.com/zixlin7/language-servers/commit/37cf726e4926640da158ee67d86a1937b2c89c68))
+* marking aws field as optional in initializationOptions ([#757](https://github.com/zixlin7/language-servers/issues/757)) ([d435c99](https://github.com/zixlin7/language-servers/commit/d435c992c44214523eadfe252bb80d70ffa191f6))
+* move CW streaming client to tarball ([#743](https://github.com/zixlin7/language-servers/issues/743)) ([a1a17d8](https://github.com/zixlin7/language-servers/commit/a1a17d853bd1d33897e2deaacec53d6d62bbe2ec))
+* prevent override of client request listeners in CodeWhispererServiceIAM ([#784](https://github.com/zixlin7/language-servers/issues/784)) ([cd85931](https://github.com/zixlin7/language-servers/commit/cd85931f1981921cd5692944fbe1b638124e4457))
+* removing duplicated nuget packages folder ([#746](https://github.com/zixlin7/language-servers/issues/746)) ([24b44d0](https://github.com/zixlin7/language-servers/commit/24b44d03ce6d2127099a6ce8c33cd63b55fae290))
+* replace setInterval with recursive setTimeout for browser compatibility ([48b8fd1](https://github.com/zixlin7/language-servers/commit/48b8fd1fd780770cb4b94bb1be33882f204a77e8))
+* revert "chore: bump archiver from 6.0.2 to 7.0.1" ([#762](https://github.com/zixlin7/language-servers/issues/762)) ([8d490e5](https://github.com/zixlin7/language-servers/commit/8d490e5022e9ae2dd3ba8514a7dd3dbd1609e290))
+* revert "feat: bugfix for artifacts upload" ([#766](https://github.com/zixlin7/language-servers/issues/766)) ([0c07a17](https://github.com/zixlin7/language-servers/commit/0c07a175218d5deaa2cc4c3cd23641ed8ad0f71e))
+
+
+### Performance Improvements
+
+* dispose chat controller in chatController tests ([#717](https://github.com/zixlin7/language-servers/issues/717)) ([b0e6b78](https://github.com/zixlin7/language-servers/commit/b0e6b78bcee5970eac8159d2a46bae152f1d238d))
+
 ## [0.0.27](https://github.com/aws/language-servers/compare/lsp-codewhisperer/v0.0.26...lsp-codewhisperer/v0.0.27) (2025-02-20)
 
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/zixlin7/language-servers/compare/chat-client/v0.1.1...chat-client/v0.1.2) (2025-03-11)
+
+
+### Features
+
+* **chat-client:** handle 'openTab' requests ([#817](https://github.com/zixlin7/language-servers/issues/817)) ([fdd0b87](https://github.com/zixlin7/language-servers/commit/fdd0b87ad2d2c9a540d2594bb9243cad01b5887a))
+* update mynah-ui to v4.22.1 ([#794](https://github.com/zixlin7/language-servers/issues/794)) ([5630ed3](https://github.com/zixlin7/language-servers/commit/5630ed33005291194e2f9391ec20647b37fa4626))
+
 ## [0.1.1](https://github.com/aws/language-servers/compare/chat-client/v0.1.0...chat-client/v0.1.1) (2025-02-20)
 
 
